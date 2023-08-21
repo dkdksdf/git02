@@ -1,0 +1,28 @@
+.border_tip{
+    position: relative;
+    background: #d6bcbc;
+    left: 50%;
+    width: 400px;
+    margin-top: 25%;
+    transform: translateX(-50%);
+}
+.border_tip::before{
+    content: '';
+    position: absolute;
+    border-top: 10px solid #256034;
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    bottom: -10px;
+    left: 50%;
+    margin-left: -20px;
+}
+.border_tip::after{
+    content: '';
+    position: absolute;
+    border-bottom: 10px solid #256034;
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    top: -10px;
+    left: 50%;
+    margin-left: -20px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원 가입을 환영합니다</title>
+</head>
+<body>
+    <h1>회원 가입을 환영합니다</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>사용자 정보</legend>
+            <ul>
+                <li>아이디<input type="text"></li>
+                <li>이메일<input type="email" name="email"></li>
+                <li>비밀번호<input type="password" name="PWD"></li>
+                <li>비밀번호확인<input type="password" name="PWDC"></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>이벤트와 새로운 소식</legend>
+            <label>메일 수신</label>
+            <input type="radio" id="ms" name="ms">
+            <label>메일 수신 안함</label>
+            <input type="radio" id="msa" name="msa">
+        </fieldset>
+        <p>
+            <input type="button" value="가입하기">
+            <input type="button" value="취소">        
+        </p>        
+    </form>
+</body>
+</html>

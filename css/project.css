@@ -1,0 +1,13 @@
+.wrap{width: 100%;}
+.container{width: 100%; max-width: 1400px; margin: auto; background: rgba(255,255,255,.5); height: inherit;}
+.header{height: 140px; background: #85add8;}
+.header_top{height: 70px; background: #689ace;}
+nav{height: 70px; background: #356292;}
+.banner{height: 450px; background: #6560c9;}
+main{height: 945px; background: #504ca0;}
+section:nth-child(1){height: 315px; background: #b171d4;}
+section:nth-child(2){height: 315px; background: #8944ae;}
+section:nth-child(3){height: 315px; background: #b171d4;}
+footer{height: 220px; background: #77b5d7;}
+.footer_nav{height: 60px; background: #5889a4;}
+.footer_info{height: 160px; background: #2093d2;}
